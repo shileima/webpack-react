@@ -1,0 +1,52 @@
+Arguments: 
+  /data/home/server/node-v4.2.3/bin/node /data/home/server/nodejs/bin/yarn add webpack-cli -D
+
+PATH: 
+  /data/home/server/nodejs/bin:/sbin:/usr/sbin:/bin:/usr/bin:/root/bin:/usr/local/git/bin:/root/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "webpack-react",
+    "version": "1.0.0",
+    "description": "webpack 打包 react 标准配置依赖",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shileima/webpack-react.git"
+    },
+    "keywords": [
+      "webpack",
+      "react"
+    ],
+    "author": "Loading",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shileima/webpack-react/issues"
+    },
+    "homepage": "https://github.com/shileima/webpack-react#readme",
+    "devDependencies": {
+      "webpack": "^4.1.1",
+      "webpack-cli": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/usr/local/share/.cache/yarn/v1/npm-define-property-2.0.2-d459689e8d654ba77e02a817f8710d702cb16e9d/CHANGELOG.md' -> '/data/home/www/webpack-react/node_modules/anymatch/node_modules/define-property/CHANGELOG.md'

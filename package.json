@@ -1,0 +1,34 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "webpack 打包 react 标准配置依赖",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shileima/webpack-react.git"
+  },
+  "keywords": [
+    "webpack",
+    "react"
+  ],
+  "author": "Loading",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shileima/webpack-react/issues"
+  },
+  "homepage": "https://github.com/shileima/webpack-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
